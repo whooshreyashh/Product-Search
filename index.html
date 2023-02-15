@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS product filter</title>
+
+    <script src="https://kit.fontawesome.com/90eaa46d2a.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Trirong">
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="container">
+        <form>
+            <i class="fas fa-search" aria-hidden="true"></i>
+            <input type="search" name="" id="search-item" placeholder="Search products" onkeyup="search()">
+        </form>
+
+        <div class="product-list" id="product-list">
+            
+            <div class="product">
+                <img src="img/t1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Nasa Tshirt</h2>
+                    <h3>Rs 500/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/t3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Marvel Tshirt</h2>
+                    <h3>Rs 699/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/b1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Bagpack</h2>
+                    <h3>Rs 1450/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/iw1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Apple Watch</h2>
+                    <h3>Rs 30999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/h6.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Hoodie</h2>
+                    <h3>Rs 1600/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/s3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Air Jordans Retro</h2>
+                    <h3>Rs 9350/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/p2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Women's Handbag</h2>
+                    <h3>Rs 1700/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/iph1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Apple iphone 14</h2>
+                    <h3>Rs 140999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/j1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Men's Black Jeans</h2>
+                    <h3>Rs 1359/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/j2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Men's Blue Jeans</h2>
+                    <h3>Rs 1299/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/sw2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Samsung Gear S5</h2>
+                    <h3>Rs 31999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/sm2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Samsung Note 22 Ultra Smartphone</h2>
+                    <h3>Rs 89999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/w1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Rolex Watch</h2>
+                    <h3>Rs 60999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/h4.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Hoodie</h2>
+                    <h3>Rs 1400/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/s1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Air Jordans</h2>
+                    <h3>Rs 10999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/v1.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Varsity Jacket</h2>
+                    <h3>Rs 2199/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/h3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Hoodie</h2>
+                    <h3>Rs 1499/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/iw2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Apple Watch</h2>
+                    <h3>Rs 32999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/w2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Rolex Watch</h2>
+                    <h3>Rs 48999/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/p3.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Women's Handbag</h2>
+                    <h3>Rs 1599/-</h3>
+                </div>
+
+            </div>
+
+            <div class="product">
+                <img src="img/b2.jpeg" alt="">
+                <div class="p-details">
+                    <h2>Bagpack</h2>
+                    <h3>Rs 1299/-</h3>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <script src="app.js"></script>
+</body>
+
+</html>
